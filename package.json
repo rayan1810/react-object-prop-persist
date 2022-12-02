@@ -1,0 +1,22 @@
+{
+  "name": "react-object-prop-persist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -d lib",
+    "prepare": "yarn build && yarn version",
+    "dev:web": "cd example && yarn dev"
+  },
+  "author": "Rohit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/types": "^7.20.5"
+  }
+}
